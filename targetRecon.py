@@ -1,9 +1,9 @@
 import argparse
 import os
 import sys
-from support.target import TargetService
-from support.scans import openPortsScan
-from support.scans import scriptsScan
+from target import TargetService
+from scans import openPortsScan
+from scans import scriptsScan
 
 def getArgs ():
 
