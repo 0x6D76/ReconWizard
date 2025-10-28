@@ -7,7 +7,7 @@ from scans import scriptsScan
 
 def getArgs ():
 
-    parser = argparse.ArgumentParser (description = "\033[31mTarget Reconnaissance\033[0m")
+    parser = argparse.ArgumentParser (description = "\033[31mReconnaissance Wizard\033[0m")
     parser.add_argument ('target', action = 'store', type = str, help = 'Target IP address')
     parser.add_argument ('-o', '--open', action = 'store_true', help = 'Report open ports and stop further scanning',
                          dest = 'openScan')
